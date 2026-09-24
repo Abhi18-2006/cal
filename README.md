@@ -10,6 +10,13 @@ int main() {
 
     printf("Sum = %d\n", sum);
 
+     
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+      int sub = a - b;
+
+    printf("Sub = %d\n", sub);
+
     return 0;
 }
 
